@@ -59,13 +59,13 @@ postaci oddzielonych my¶lnikami oktetów w postaci szesnastkowej.
 Adresy MAC w pliku ethers systemu SUN zazwyczaj s± w postaci nie
 dope³nianych zerami, oddzielonych dwukropkami oktetów w postaci
 szesnastkowej. Wreszcie niekiedy mo¿na spotkaæ ca³kowicie szalony
-format oddzielonych kropkami oktektów w postaci dziesiêtnej (niektóre
-MIBy Cisco SNMP korzystaj± z tego). Dlatego potrzebna jest wspólna dla
+format oddzielonych kropkami oktetów w postaci dziesiêtnej (niektóre
+MIB-y Cisco SNMP korzystaj± z tego). Dlatego potrzebna jest wspólna dla
 wszystkich formatów metoda do wy¶wietlania i obróbki adresów MAC w
 Perlu.
 
 Istnieje zaskakuj±co du¿a z³o¿ono¶æ w procesie konwersji adresu MAC
-pomiêdzy róznymi formatami. Ten modu³ nie próbuje zrozumieæ wszystkich
+pomiêdzy ró¿nymi formatami. Ten modu³ nie próbuje zrozumieæ wszystkich
 metod na przedstawienie adresu MAC w ³añcuchu znaków, jednak wiêkszo¶æ
 z popularnych metod przedstawiania adresów jest wspierana.
 
