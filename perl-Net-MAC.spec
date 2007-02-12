@@ -6,7 +6,7 @@
 %define	pdir	Net
 %define	pnam	MAC
 Summary:	Net::MAC - Perl extension for representing and manipulating MAC addresses
-Summary(pl.UTF-8):   Net::MAC - rozszerzenie Perla do przedstawiania i obróbki adresów MAC
+Summary(pl.UTF-8):	Net::MAC - rozszerzenie Perla do przedstawiania i obróbki adresów MAC
 Name:		perl-Net-MAC
 Version:	1.1
 Release:	0.1
