@@ -6,7 +6,7 @@
 %define	pdir	Net
 %define	pnam	MAC
 Summary:	Net::MAC - Perl extension for representing and manipulating MAC addresses
-Summary(pl):	Net::MAC - rozszerzenie Perla do przedstawiania i obróbki adresów MAC
+Summary(pl.UTF-8):   Net::MAC - rozszerzenie Perla do przedstawiania i obrÃ³bki adresÃ³w MAC
 Name:		perl-Net-MAC
 Version:	1.1
 Release:	0.1
@@ -43,31 +43,31 @@ addresses between types. This module does not attempt to understand
 all possible ways of representing a MAC address in a string, though
 most of the common ways of representing MAC addresses are supported.
 
-%description -l pl
-Modu³ ten pozwala na:
+%description -l pl.UTF-8
+ModuÅ‚ ten pozwala na:
 
   - przechowywanie adresu MAC w postaci obiektu
   - wyszukiwanie informacji na temat zapisanego adresu MAC
-  - konwersjê adresu MAC w okre¶lony format
+  - konwersjÄ™ adresu MAC w okreÅ›lony format
 
-Istnieje kilka sposobów na przedstawianie adresów MAC w postaci
+Istnieje kilka sposobÃ³w na przedstawianie adresÃ³w MAC w postaci
 tekstowej. Prawdopodobnie najpopularniejszy to oddzielony dwukropkami
-oktety w postaci szesnastkowej. Pracuj±c z urz±dzeniami Cisco mo¿na
-siê jednak natkn±æ na na oddzielone kropkami 16-bitowe grupy w postaci
-szesnastkowej. W ¶wiecie Windows, adresy s± zazwyczaj przedstawione w
-postaci oddzielonych my¶lnikami oktetów w postaci szesnastkowej.
-Adresy MAC w pliku ethers systemu SUN zazwyczaj s± w postaci nie
-dope³nianych zerami, oddzielonych dwukropkami oktetów w postaci
-szesnastkowej. Wreszcie niekiedy mo¿na spotkaæ ca³kowicie szalony
-format oddzielonych kropkami oktetów w postaci dziesiêtnej (niektóre
-MIB-y Cisco SNMP korzystaj± z tego). Dlatego potrzebna jest wspólna dla
-wszystkich formatów metoda do wy¶wietlania i obróbki adresów MAC w
+oktety w postaci szesnastkowej. PracujÄ…c z urzÄ…dzeniami Cisco moÅ¼na
+siÄ™ jednak natknÄ…Ä‡ na na oddzielone kropkami 16-bitowe grupy w postaci
+szesnastkowej. W Å›wiecie Windows, adresy sÄ… zazwyczaj przedstawione w
+postaci oddzielonych myÅ›lnikami oktetÃ³w w postaci szesnastkowej.
+Adresy MAC w pliku ethers systemu SUN zazwyczaj sÄ… w postaci nie
+dopeÅ‚nianych zerami, oddzielonych dwukropkami oktetÃ³w w postaci
+szesnastkowej. Wreszcie niekiedy moÅ¼na spotkaÄ‡ caÅ‚kowicie szalony
+format oddzielonych kropkami oktetÃ³w w postaci dziesiÄ™tnej (niektÃ³re
+MIB-y Cisco SNMP korzystajÄ… z tego). Dlatego potrzebna jest wspÃ³lna dla
+wszystkich formatÃ³w metoda do wyÅ›wietlania i obrÃ³bki adresÃ³w MAC w
 Perlu.
 
-Istnieje zaskakuj±co du¿a z³o¿ono¶æ w procesie konwersji adresu MAC
-pomiêdzy ró¿nymi formatami. Ten modu³ nie próbuje zrozumieæ wszystkich
-metod na przedstawienie adresu MAC w ³añcuchu znaków, jednak wiêkszo¶æ
-z popularnych metod przedstawiania adresów jest wspierana.
+Istnieje zaskakujÄ…co duÅ¼a zÅ‚oÅ¼onoÅ›Ä‡ w procesie konwersji adresu MAC
+pomiÄ™dzy rÃ³Å¼nymi formatami. Ten moduÅ‚ nie prÃ³buje zrozumieÄ‡ wszystkich
+metod na przedstawienie adresu MAC w Å‚aÅ„cuchu znakÃ³w, jednak wiÄ™kszoÅ›Ä‡
+z popularnych metod przedstawiania adresÃ³w jest wspierana.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
