@@ -8,12 +8,12 @@
 Summary:	Net::MAC - Perl extension for representing and manipulating MAC addresses
 Summary(pl.UTF-8):	Net::MAC - rozszerzenie Perla do przedstawiania i obróbki adresów MAC
 Name:		perl-Net-MAC
-Version:	1.1
+Version:	1.2
 Release:	0.1
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	4cabec28069bb6f8765f4ee54b561b1b
+# Source0-md5:	71aa10f40a388eed8eb1fa3082b4f840
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
